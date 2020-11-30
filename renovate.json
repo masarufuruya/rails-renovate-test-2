@@ -31,6 +31,14 @@
         "webpacker"
       ],
       "enabled": true
+    },
+    {
+      "managers": ["ruby-version"],
+      "enabled": false
+    },
+    {
+      "managers": ["npm"],
+      "enabled": false
     }
   ]
 }
