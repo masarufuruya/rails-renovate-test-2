@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "managers": ["bundler"],
+      "packageNames": [
+        "rails",
+        "sqlite3",
+        "puma",
+        "sass",
+        "turbolinks",
+        "jbuilder",
+        "bootsnap",
+        "byebug",
+        "web-console",
+        "listen",
+        "spring",
+        "spring-watcher-listen",
+        "capybara",
+        "selenium-webdriver",
+        "webdrivers",
+        "tzinfo-data"
+      ],
+      "enabled": false
+    },
+    {
+      "managers": ["bundler"],
+      "packageNames": [
+        "webpacker"
+      ],
+      "enabled": true
+    },
+    {
+      "managers": ["ruby-version"],
+      "enabled": false
+    },
+    {
+      "managers": ["npm"],
+      "enabled": false
+    }
+  ]
+}
