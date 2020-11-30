@@ -1,5 +1,36 @@
 {
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "managers": ["gem"],
+      "packageNames": [
+        "rails",
+        "sqlite3",
+        "puma",
+        "sass",
+        "turbolinks",
+        "jbuilder",
+        "bootsnap",
+        "byebug",
+        "web-console",
+        "listen",
+        "spring",
+        "spring-watcher-listen",
+        "capybara",
+        "selenium-webdriver",
+        "webdrivers",
+        "tzinfo-data"
+      ],
+      "enabled": false
+    },
+    {
+      "managers": ["gem"],
+      "packageNames": [
+        "webpacker"
+      ],
+      "enabled": true
+    }
   ]
 }
