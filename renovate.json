@@ -4,7 +4,7 @@
   ],
   "packageRules": [
     {
-      "managers": ["gem"],
+      "managers": ["bundler"],
       "packageNames": [
         "rails",
         "sqlite3",
@@ -26,7 +26,7 @@
       "enabled": false
     },
     {
-      "managers": ["gem"],
+      "managers": ["bundler"],
       "packageNames": [
         "webpacker"
       ],
