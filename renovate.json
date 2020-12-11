@@ -34,11 +34,7 @@
       "enabled": true
     },
     {
-      "managers": ["ruby-version"],
-      "enabled": false
-    },
-    {
-      "managers": ["npm"],
+      "managers": ["ruby-version", "npm"],
       "enabled": false
     }
   ]
