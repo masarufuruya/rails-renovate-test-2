@@ -28,7 +28,8 @@
     {
       "managers": ["bundler"],
       "packageNames": [
-        "webpacker"
+        "webpacker",
+        "zengin_code"
       ],
       "enabled": true
     },
